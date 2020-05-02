@@ -2,7 +2,7 @@
 
 ## Writeup
 
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
+### This README serves as the project writeup for P1
 
 ---
 
@@ -16,10 +16,15 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 
 [image1]: ./images/grayscale.jpg "Grayscale"
-[image2]: ./images/gaussian-blur.jpg "Grayscale"
-[image3]: ./images/canny-edge.jpg "Grayscale"
-[image4]: ./images/masked-image.jpg "Grayscale"
-
+[image2]: ./images/gaussian-blur.jpg "blur"
+[image3]: ./images/canny-edge.jpg "Canny Edge"
+[image4]: ./images/masked-image.jpg "Masked-image"
+[image5]: ./images/solidWhiteCurve.jpg 
+[image6]: ./images/SolidWhiteRight.jpg 
+[image7]: ./images/SolidYellowCurve.jpg 
+[image8]: ./images/SolidYellowCurve2.jpg 
+[image9]: ./images/SolidYellowLeft.jpg 
+[image10]: ./images/whiteCarLeanSwitch.jpg 
 ---
 
 ### Reflection
@@ -35,7 +40,10 @@ My process to identify lanelines worked as follows:
 ![image3]
 - identify the piece of the image where lane lines typically lie in our camera and mask the surrounding area.
 ![image4]
-- compute hough line detection to sort the image for lines.
+- compute hough line detection to sort the image for lines based on intersections a user specificied intersection of points. User also inputs min line length and space between points to optimize line detection. The results from the 6 test images are shown below: 
+![image5] ![image6] 
+![image7] ![image8] 
+![image9] ![image10] 
 
 
 ### 2. Identify potential shortcomings with your current pipeline
