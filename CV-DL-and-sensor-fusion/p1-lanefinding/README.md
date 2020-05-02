@@ -1,6 +1,6 @@
 # **Finding Lane Lines on the Road** 
 
-## Writeup Template
+## Writeup
 
 ### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
 
@@ -15,7 +15,10 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./images/grayscale.jpg "Grayscale"
+[image2]: ./images/gaussian-blur.jpg "Grayscale"
+[image3]: ./images/canny-edge.jpg "Grayscale"
+[image4]: ./images/masked-image.jpg "Grayscale"
 
 ---
 
