@@ -28,6 +28,7 @@ The goals / steps of this project are the following:
 
 My process to identify lanelines worked as follows:
 - convert the image to gray scale for eventual use with canny edge detection
+![image1]
 - apply gausian smoothing on the grayed out image to reduce noise and prevent sporadic edges from being found
 - apply canny edge detection to find strong gradients indicative of 'edges' or important features of the image
 - identify the piece of the image where lane lines typically lie in our camera and mask the surrounding area.
