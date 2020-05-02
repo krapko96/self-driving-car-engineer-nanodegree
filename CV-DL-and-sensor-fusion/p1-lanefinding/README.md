@@ -41,9 +41,12 @@ My process to identify lanelines worked as follows:
 - identify the piece of the image where lane lines typically lie in our camera and mask the surrounding area.
 ![image4]
 - compute hough line detection to sort the image for lines based on intersections a user specificied intersection of points. User also inputs min line length and space between points to optimize line detection. The results from the 6 test images are shown below: 
-![image5] ![image6] 
-![image7] ![image8] 
-![image9] ![image10] 
+![image5] 
+![image6] 
+![image7] 
+![image8] 
+![image9] 
+![image10] 
 
 
 ### 2. Identify potential shortcomings with your current pipeline
