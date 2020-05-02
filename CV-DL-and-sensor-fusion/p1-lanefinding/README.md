@@ -20,7 +20,6 @@ The goals / steps of this project are the following:
 [image3]: ./images/canny-edge.jpg "Canny Edge"
 [image4]: ./images/masked-image.jpg "Masked-image"
 [image5]: ./images/Output.JPG "Output"
-[image6]: ./images/solidYellowLeft (1).mp4 "video"
 
 
 
@@ -41,17 +40,14 @@ My process to identify lanelines worked as follows:
 ![image4]
 - compute hough line detection to sort the image for lines based on intersections a user specificied intersection of points. User also inputs min line length and space between points to optimize line detection. The results from the 6 test images are shown below: 
 ![image5] 
-![image6]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what happens when there is a dashed line very close to the camera. Due to perspective, this line appears to have a slope that is much closer to parallel than is actually correct focing the lane line to project into the middile of the road. This is evidenced by the lane line behavior below:
+One potential shortcoming would be what happens when there is a dashed line very close to the camera. Due to perspective, this line appears to have a slope that is much closer to parallel than is actually correct focing the lane line to project into the middile of the road. This is evidenced by the lane line behavior under /images/solidYellowLeft (1).mp4
 
 
 ### 3. Suggest possible improvements to your pipeline
 
-A possible improvement would be to ...
-
-Another potential improvement could be to ...
+A possible improvement would be to have an addaptive search mask based on the lines that are present. For example, in my P1 notebook, if the left or right lane arrays had less than x# of inputs than the mask should be enlarged and hough lines should be recalculated.
