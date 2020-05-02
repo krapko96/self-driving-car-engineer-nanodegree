@@ -19,7 +19,7 @@ The goals / steps of this project are the following:
 [image2]: ./images/gaussian-blur.jpg "blur"
 [image3]: ./images/canny-edge.jpg "Canny Edge"
 [image4]: ./images/masked-image.jpg "Masked-image"
-[image5]: ./images/Output.jpg "Output"
+[image5]: ./images/Output.JPG "Output"
 
 ---
 
