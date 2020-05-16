@@ -27,7 +27,7 @@ The steps I used to create a reliable lane finding pipeline are as follows:
 [image4]: ./output_images/gradient-threshold.jpg "Gradient Threshold"
 [image5]: ./output_images/histogram.jpg "Histogram"
 [image6]: ./output_images/find_pixels.jpg "Sliding Windows"
-[image6]: ./output_images/pipeline-output.jpg "Pipeline Output"
+[image7]: ./output_images/pipeline-output.jpg "Pipeline Output"
 [video1]: ./output_videos/project_video_output.mp4 "Final Video"
 
 
@@ -94,7 +94,7 @@ Distance from center was completed by averaging the right and left lane line pix
 
 Finally, once the lane lines have been identified and the metrics have been calculated, a lane can then be plotted onto the flat image using the left and right lane lines as bounds. From there the image can be transformed back to the cameras perspective by completing the perspective transform function mentioned in step 3 but switching the source (`src`) and destination (`dst`) coorindates. Once this image is returned to the cars POV the metrics in step 5 are layered on as well as the output seen by the sliding windows output.
 
-![Pineline Output][image7]
+![Pipeline Output][image7]
 
 ---
 
