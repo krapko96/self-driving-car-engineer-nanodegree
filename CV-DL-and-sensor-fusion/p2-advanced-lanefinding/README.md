@@ -21,14 +21,14 @@ The steps I used to create a reliable lane finding pipeline are as follows:
 
 [//]: # (Image References)
 
-[image1]: /self-driving-car-engineer-nanodegree/CV-DL-and-sensor-fusion/p2-advanced-lanefinding/output_images/original.jpg "Original"
-[image2]: /self-driving-car-engineer-nanodegree/CV-DL-and-sensor-fusion/p2-advanced-lanefinding/output_images/undistorted.jpg "Camera Distortion Correction"
-[image3]: /self-driving-car-engineer-nanodegree/CV-DL-and-sensor-fusion/p2-advanced-lanefinding/output_images/perspective_transform.jpg "Perspective Transform"
-[image4]: /self-driving-car-engineer-nanodegree/CV-DL-and-sensor-fusion/p2-advanced-lanefinding/output_images/gradient-threshold.jpg "Gradient Threshold"
-[image5]: /self-driving-car-engineer-nanodegree/CV-DL-and-sensor-fusion/p2-advanced-lanefinding/output_images/histogram.jpg "Histogram"
-[image6]: /self-driving-car-engineer-nanodegree/CV-DL-and-sensor-fusion/p2-advanced-lanefinding/output_images/find_pixels.jpg "Sliding Windows"
-[image6]: /self-driving-car-engineer-nanodegree/CV-DL-and-sensor-fusion/p2-advanced-lanefinding/output_images/pipeline-output.jpg "Pipeline Output"
-[video1]: /self-driving-car-engineer-nanodegree/CV-DL-and-sensor-fusion/p2-advanced-lanefinding/output_videos/project_video_output.mp4 "Final Video"
+[image1]: ./output_images/original.jpg "Original"
+[image2]: ./output_images/undistorted.jpg "Camera Distortion Correction"
+[image3]: ./output_images/perspective_transform.jpg "Perspective Transform"
+[image4]: ./output_images/gradient-threshold.jpg "Gradient Threshold"
+[image5]: ./output_images/histogram.jpg "Histogram"
+[image6]: ./output_images/find_pixels.jpg "Sliding Windows"
+[image6]: ./output_images/pipeline-output.jpg "Pipeline Output"
+[video1]: ./output_videos/project_video_output.mp4 "Final Video"
 
 
 ### The following serves as a more detailed review of my lane finding pipeline.   
